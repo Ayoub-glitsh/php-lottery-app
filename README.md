@@ -1,7 +1,7 @@
 # 🎱 Loterie Interactive - Application PHP
 
 <p align="center">
-  <img src="assets/images/screenshot.png" width="400">
+  <img src="assets/img/lottery.png" width="400">
 </p>
 
   
