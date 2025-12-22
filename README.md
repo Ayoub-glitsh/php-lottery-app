@@ -1,5 +1,9 @@
 # 🎱 Loterie Interactive - Application PHP
 
+<p align="center">
+  <img src="assets/images/screenshot.png" width="400">
+</p>
+
   
 
 *Une application web de simulation de loterie avec interface simple et résultats en temps réel, développée en PHP natif sans frameworks.
