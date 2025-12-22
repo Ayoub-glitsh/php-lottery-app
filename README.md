@@ -22,181 +22,104 @@
 
   
 
-\## 🛠️ Technologies
+## 🛠️ Technologies
 
   
 
-\- \*\*PHP 7.4+\*\* - Backend natif sans frameworks
+- **PHP 7.4+** - Backend natif sans frameworks
 
-\- \*\*HTML5\*\* - Structure sémantique
+- **HTML5** - Structure sémantique
 
-\- \*\*CSS3\*\* - Styles modernes
+- **CSS3** - Styles modernes
 
-\- \*\*JavaScript\*\* - Interactions client (optionnel)
-
-  
-
-\## 📁 Structure du Projet
+- **JavaScript** - Interactions client (optionnel)
 
   
 
+## 📁 Structure du Projet
+
+  
+``` bash
 lottery-php/
-
 ├── index.php # Point d'entrée principal
-
 ├── includes/
-
 │ ├── header.php # En-tête HTML
-
 │ ├── footer.php # Pied de page
-
 │ ├── form.php # Formulaire de sélection
-
 │ ├── functions.php # Logique métier
-
 │ └── styles.css # Feuille de style
-
 └── README.md
+```
 
   
 
-bash
-
-Copier le code
+## 🚀 Installation Rapide
 
   
 
-\## 🚀 Installation Rapide
+### 1. Cloner le projet
 
-  
-
-\### 1. Cloner le projet
-
-\`\`\`bash
+```bash
 
 git clone https://github.com/votre-username/lottery-php.git
 
 cd lottery-php
+```
+### 2. Lancer le serveur local
 
-2\. Lancer le serveur local
-
-bash
-
-Copier le code
-
+```bash
 php -S localhost:8000
+```
 
-3\. Ouvrir dans le navigateur
 
-arduino
+### 3. Ouvrir dans le navigateur
 
-Copier le code
-
+```bash
 http://localhost:8000
+```
 
-🎮 Comment Jouer
+###  4. 🎮 Comment Jouer
 
-Sélectionnez vos numéros via l'interface
-
-  
-
-Cliquez sur le bouton "Vérifier"
+- Sélectionnez vos numéros via l'interface
 
   
 
-Consultez le tirage aléatoire généré
+- Cliquez sur le bouton "Vérifier"
 
   
 
-Découvrez si vous avez gagné
+- Consultez le tirage aléatoire généré
 
   
 
-🔧 Configuration
-
-Variables personnalisables (dans includes/functions.php) :
-
-php
-
-Copier le code
-
-// Nombre de numéros à choisir
-
-const NUM\_CHOICES = 6;
+- Découvrez si vous avez gagné
 
   
 
-// Plage des numéros (ex: 1 à 49)
 
-const MIN\_NUMBER = 1;
+### 5. 📦 Dépendances
 
-const MAX\_NUMBER = 49;
-
-  
-
-// Règles de gain
-
-$winningRules = \[
-
-    '6\_correct' => 'Jackpot!',
-
-    '5\_correct' => 'Second prix',
-
-    // ...
-
-\];
-
-📦 Dépendances
-
-Aucune dépendance externe requise
+- Aucune dépendance externe requise
 
   
 
-PHP 7.4 ou supérieur
+- PHP 7.4 ou supérieur
 
   
 
-Serveur web (Apache, Nginx) ou PHP CLI
+- Serveur web (Apache, Nginx) ou PHP CLI
 
   
 
-Navigateur web moderne
+- Navigateur web moderne
 
   
 
-🐛 Dépannage
 
-Problème : "Page blanche"
-
-php
-
-Copier le code
-
-ini\_set('display\_errors', 1);
-
-error\_reporting(E\_ALL);
-
-Problème : "Fichiers includes non trouvés"
-
-Vérifiez les chemins relatifs dans index.php
 
   
 
-Problème : "Formulaire ne fonctionne pas"
-
-La méthode POST est utilisée
-
-  
-
-PHP est correctement installé
-
-  
-
-Aucune erreur de syntaxe dans le code
-
-  
-
-🚀 Déploiement
+### 6. 🚀 Déploiement
 
 Sur un hébergement mutualisé
 
@@ -218,29 +141,29 @@ scp -r lottery-php/ user@server:/var/www/html/
 
 chmod -R 755 /var/www/html/lottery-php
 
-🤝 Contribution
+### 7. 🤝 Contribution
 
 Les contributions sont bienvenues !
 
   
 
-Fork le projet
+- Fork le projet
 
   
 
-Crée une branche : git checkout -b feature/nouvelle-fonctionnalite
+- Crée une branche : git checkout -b feature/nouvelle-fonctionnalite
 
   
 
-Commit : git commit -m "Ajout de..."
+- Commit : git commit -m "Ajout de..."
 
   
 
-Push : git push origin feature/nouvelle-fonctionnalite
+- Push : git push origin feature/nouvelle-fonctionnalite
 
   
 
-Ouvre une Pull Request
+- Ouvre une Pull Request
 
   
 
@@ -252,7 +175,7 @@ Ce projet est sous licence MIT – voir le fichier LICENSE.
 
 👨‍💻 Auteur
 
-Développé avec ❤️ par Ayoub Aguezar pour l’apprentissage de PHP.
+Développé par Ayoub Aguezar pour l’apprentissage de PHP.
 
   
 
