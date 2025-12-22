@@ -120,31 +120,6 @@ http://localhost:8000
   
 
 
-
-  
-
-### 6. 🚀 Déploiement
-
-Sur un hébergement mutualisé
-
-Téléversez tous les fichiers via FTP
-
-  
-
-Accédez à votre domaine
-
-  
-
-Sur VPS / Serveur dédié
-
-bash
-
-Copier le code
-
-scp -r lottery-php/ user@server:/var/www/html/
-
-chmod -R 755 /var/www/html/lottery-php
-
 ### 7. 🤝 Contribution
 
 Les contributions sont bienvenues !
@@ -181,63 +156,9 @@ Ce projet est sous licence MIT – voir le fichier LICENSE.
 
 Développé par Ayoub Aguezar pour l’apprentissage de PHP.
 
-  
-
-⭐ Fonctionnalités à Venir (Roadmap)
-
- Système de comptes utilisateurs
 
   
 
- Historique des tirages
-
-  
-
- Statistiques de gains
-
-  
-
- Interface administrateur
-
-  
-
- API REST pour mobile
-
-  
-
-🔗 Liens Utiles
-
-Documentation PHP
-
-  
-
-Guide de contribution
-
-  
-
-Code de conduite
-
-  
-
-💡 Conseil :
-
-Cette application est idéale pour :
-
-  
-
-Apprendre les bases du PHP web
-
-  
-
-Comprendre le traitement des formulaires
-
-  
-
-Expérimenter avec les sessions PHP
-
-  
-
-Créer des projets éducatifs
 
   
 
