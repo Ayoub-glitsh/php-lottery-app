@@ -6,7 +6,7 @@
 # 🎱 Loterie Interactive - Application PHP
 
 <p align="center">
-  <img src="assets/img/lottery.png" >
+  <img src="assets/img/lottery.png" > 
 </p>
 
 
